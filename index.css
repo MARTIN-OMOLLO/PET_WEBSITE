@@ -1,5 +1,46 @@
 html{
     margin: auto;
     padding: 0px;
-    height: 100%;
+    height: 100vh;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.social-media{
+    display: flex;
+    float: right;
+}
+.social-media ul li{
+    list-style-type: none;
+    padding: 10px 25px;
+    display: inline-block;
+    position: relative;
+}
+#body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.home{
+    display: flex;
+}
+.more{
+    background-color: yellow;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.para{
+    background-color: royalblue;
+    height: 120px;
+    margin: 20px;
+}
+.email{
+    float: right;
+display: block;
+background-color: blue;
 }
